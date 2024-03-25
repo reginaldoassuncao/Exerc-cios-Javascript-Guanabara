@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício-04</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+            font-weight: bold; 
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt('Informe o seu nome:'); // Solicita ao usuário que informe o seu nome
+        document.write(`Olá, ${nome}!, seu nome tem ${nome.length} letras.`); // Exibe o nome do usuário e a quantidade de letras
+        document.write(`<br>`); // Quebra de linha
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}.`); // Exibe o nome do usuário em maiúsculas
+        document.write(`<br>`); // Quebra de linha
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}.`); // Exibe o nome do usuário em minúsculas
+    </script>
+</body>
